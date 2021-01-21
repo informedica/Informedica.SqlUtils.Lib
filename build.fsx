@@ -43,7 +43,7 @@ let environVarAsBoolOrDefault varName defaultValue =
 //-----------------------------------------------------------------------------
 
 let productName = "Informedica.SqlUtils.Lib"
-let sln = "Informedica.SqlUtils.Lib.sln"
+let sln = "SqlUtils.sln"
 
 
 let srcCodeGlob =
