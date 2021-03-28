@@ -13,8 +13,14 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="paket.references" />
+    <None Include="scripts\RowReader.fsx" />
+    <None Include="scripts\Sql.fsx" />
+    <None Include="scripts\Example.fsx" />
+    <None Include="scripts\Smo.fsx" />
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Library.fs" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="RowReader.fs" />
+    <Compile Include="Sql.fs" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
